@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "LibMas/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/LibMas.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibMas.dll": {}
+        }
+      },
+      "Lib_12/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Lib_12.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lib_12.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibMas/1.0.0": {
+      "type": "project",
+      "path": "../LibMas/LibMas.csproj",
+      "msbuildProject": "../LibMas/LibMas.csproj"
+    },
+    "Lib_12/1.0.0": {
+      "type": "project",
+      "path": "../Lib_12/Lib_12.csproj",
+      "msbuildProject": "../Lib_12/Lib_12.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "LibMas >= 1.0.0",
+      "Lib_12 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\исп-34\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\pr 3 teselko 01.01\\pr 3 teselko 01.01\\pr 3 teselko 01.01.csproj",
+      "projectName": "pr 3 teselko 01.01",
+      "projectPath": "D:\\pr 3 teselko 01.01\\pr 3 teselko 01.01\\pr 3 teselko 01.01.csproj",
+      "packagesPath": "C:\\Users\\исп-34\\.nuget\\packages\\",
+      "outputPath": "D:\\pr 3 teselko 01.01\\pr 3 teselko 01.01\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\исп-34\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "D:\\pr 3 teselko 01.01\\LibMas\\LibMas.csproj": {
+              "projectPath": "D:\\pr 3 teselko 01.01\\LibMas\\LibMas.csproj"
+            },
+            "D:\\pr 3 teselko 01.01\\Lib_12\\Lib_12.csproj": {
+              "projectPath": "D:\\pr 3 teselko 01.01\\Lib_12\\Lib_12.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

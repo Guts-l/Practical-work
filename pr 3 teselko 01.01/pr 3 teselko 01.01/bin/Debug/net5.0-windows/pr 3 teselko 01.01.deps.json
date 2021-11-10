@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "pr 3 teselko 01.01/1.0.0": {
+        "dependencies": {
+          "LibMas": "1.0.0",
+          "Lib_12": "1.0.0"
+        },
+        "runtime": {
+          "pr 3 teselko 01.01.dll": {}
+        }
+      },
+      "LibMas/1.0.0": {
+        "runtime": {
+          "LibMas.dll": {}
+        }
+      },
+      "Lib_12/1.0.0": {
+        "runtime": {
+          "Lib_12.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "pr 3 teselko 01.01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibMas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lib_12/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
